@@ -11,6 +11,9 @@
 		055DA6C7287EA8D3000A8DEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055DA6C6287EA8D3000A8DEB /* ContentView.swift */; };
 		055DA6C9287EA8D9000A8DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055DA6C8287EA8D9000A8DEB /* Assets.xcassets */; };
 		055DA6CC287EA8D9000A8DEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055DA6CB287EA8D9000A8DEB /* Preview Assets.xcassets */; };
+		055DA6D3287EAA7E000A8DEB /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055DA6D2287EAA7E000A8DEB /* MotionManager.swift */; };
+		055DA6D5287EAAA3000A8DEB /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055DA6D4287EAAA2000A8DEB /* Particle.swift */; };
+		055DA6D7287EAADA000A8DEB /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055DA6D6287EAADA000A8DEB /* ParticleSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		055DA6C6287EA8D3000A8DEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		055DA6C8287EA8D9000A8DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		055DA6CB287EA8D9000A8DEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		055DA6D2287EAA7E000A8DEB /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		055DA6D4287EAAA2000A8DEB /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		055DA6D6287EAADA000A8DEB /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				055DA6C4287EA8D3000A8DEB /* MotionApp.swift */,
 				055DA6C6287EA8D3000A8DEB /* ContentView.swift */,
+				055DA6D2287EAA7E000A8DEB /* MotionManager.swift */,
+				055DA6D4287EAAA2000A8DEB /* Particle.swift */,
+				055DA6D6287EAADA000A8DEB /* ParticleSystem.swift */,
 				055DA6C8287EA8D9000A8DEB /* Assets.xcassets */,
 				055DA6CA287EA8D9000A8DEB /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				055DA6C7287EA8D3000A8DEB /* ContentView.swift in Sources */,
+				055DA6D7287EAADA000A8DEB /* ParticleSystem.swift in Sources */,
+				055DA6D5287EAAA3000A8DEB /* Particle.swift in Sources */,
+				055DA6D3287EAA7E000A8DEB /* MotionManager.swift in Sources */,
 				055DA6C5287EA8D3000A8DEB /* MotionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
